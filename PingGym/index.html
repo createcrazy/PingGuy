@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+    <title>PingGum</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary text-uppercase py-3 sticky-top shadow-lg">
+
+        <div class="container">
+            <a class="navbar-brand" href="#">Ping-Gym</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutus">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">PLANS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#TESTIMONIALS">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Rnews">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacted">CONTACT</a>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav ">
+                    <li class="nav-item"><a class="nav-link" data-bs-toggle="offcanvas"
+                            href="#offcanvas-login">LOGIN</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bs-toggle="offcanvas"
+                            href="#offcanvas-register">REGISTER</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- header  -->
+    <header class="header">
+        <video src="img/gril.mp4" autoplay muted loop
+            class="w-100 h-100 object-fit-cover position-absolute top-0 start-0"
+            style=" min-height:100%; min-width:100%;"></video>
+        <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
+        <div class="container pt-5 position-relative">
+            <div class="row align-items-center" style="min-height: 60vh;">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <h1 class="text-white text-uppercase fw-bold display-3" data-aos="fade-right" data-aos-duration="3000"
+                        style="font-size:clamp(2.5rem,7vw,5rem);">BE Fitness</h1>
+                    <h3 class="text-white text-uppercase fw-semibold mb-3" data-aos="fade-left" data-aos-duration="3000"
+                        style="font-size:clamp(1.5rem,4vw,3rem);">BE Strong</h3>
+                    <p class="text-white mb-4" style="font-size:1rem; max-width: 100%;" data-aos="fade-up" data-aos-duration="3000">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad deserunt reiciendis veniam sapiente
+                        ipsum! Nesciunt quas ratione sunt accusantium iusto sequi voluptates dolore autem, neque
+                        laboriosam vel nam atque commodi.
+                    </p>
+                    <a class="btn btn-danger text-uppercase joinbtn" data-bs-toggle="offcanvas"
+                        href="#offcanvas-register">Join Us</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- about us  -->
+    <section id="aboutus" class="container py-4">
+        <div class="main-heading text-uppercase" data-aos="fade-left">About us</div>
+        <div class="sub-heading" data-aos="fade-up">Who We Are</div>
+        <div class="line-heading" data-aos="fade-right"></div>
+        <div class="row flex-row-reverse align-items-center py-5">
+            <div class="col-md-6 mb-3" data-aos="fade-left">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero recusandae dolorum nam nesciunt
+                    expedita quisquam doloribus asperiores possimus perferendis corporis, eos, quis ratione qui!
+                    Perspiciatis suscipit repellendus vitae totam porro.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, iusto amet? Laudantium quia maxime
+                    amet incidunt eligendi delectus ratione nemo repellendus. Voluptatibus esse temporibus distinctio
+                    corrupti mollitia amet totam sit.</p>
+            </div>
+            <div class="col-md-6" data-aos="fade-right">
+                <img class="img-fluid rounded" src="img/side1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- our services  -->
+    <section id="services">
+        <div class="container py-4">
+            <div class="main-heading text-uppercase" data-aos="fade-up-right">Our Services</div>
+            <div class="sub-heading" data-aos="fade-up-left">What We Offer</div>
+            <div class="line-heading" data-aos="fade-right"></div>
+            <div class="row py-5">
+                <div class="col-md-4">
+                    <div class="card services-card my-2" data-aos="fade-right">
+                        <img class="img-fluid rounded-top" src="img/side 2.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: orange;">Group Fitness Classes</h5>
+                            <p class="card-text">Join our energetic group classes to stay motivated and achieve your
+                                fitness goals together.</p>
+                            <a href="#" class="btn btn-primary"><i class="bi bi-arrow-right"></i> Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card services-card my-2" data-aos="fade-up">
+                        <img class="img-fluid rounded-top" src="img/side 4.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: orange;">Personal Training</h5>
+                            <p class="card-text">Work one-on-one with certified trainers for customized workout and
+                                nutrition plans.</p>
+                            <a href="#" class="btn btn-primary"><i class="bi bi-arrow-right"></i> Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card services-card my-2" data-aos="fade-left">
+                        <img class="img-fluid rounded-top" src="img/side 3.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: orange;">Modern Gym Facilities</h5>
+                            <p class="card-text">Enjoy access to state-of-the-art equipment and a comfortable workout
+                                environment.</p>
+                            <a href="#" class="btn btn-primary"><i class="bi bi-arrow-right"></i> Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pricing plan -->
+    <section id="pricing" class="container py-4">
+        <div class="main-heading text-uppercase" data-aos="fade-up-left">Pricing Plan</div>
+        <div class="sub-heading" data-aos="fade-up-right">Our Affordable Plans</div>
+        <div class="line-heading" data-aos="fade-up"></div>
+        <div class="row py-5 align-items-center justify-content-center">
+            <div class="col-md-6 col-lg-4 mt-2">
+                <div class="card text-center bg-dark p-0 border-warning" data-aos="fade-right">
+                    <div class="card-header py-3">
+                        <h3 class="main-heading" data-aos="fade-up">Basic Plan</h3>
+
+                    </div>
+                    <div class="bg-warning shadow border-0 py-1 text-center text-white" data-aos="fade-left">
+                        <h3>$<span style="font-size: 35px;">15</span>/day</h3>
+                    </div>
+                    <div class="card-body border-0">
+
+                        <ul class="list-group list-group-flush border-0">
+                            <li class="list-group-item py-3 bg-transparent text-white" data-aos="fade-up-right">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3 bg-transparent text-white" data-aos="fade-up-right">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3 bg-transparent text-white" data-aos="fade-up-right">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3 bg-transparent text-white" data-aos="fade-up-right">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3 bg-transparent text-white" data-aos="fade-up-right">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3 bg-transparent text-white" data-aos="fade-up-right">Lorem
+                                ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-2">
+                <div class="card text-center bg-dark p-0 border-3 border-danger plan2" data-aos="fade-up-right">
+                    <div class="card-header py-4">
+                        <h3 class="main-heading" data-aos="fade-up">Special Premium Plan </h3>
+
+                    </div>
+                    <div class="bg-danger shadow border-0 py-2 text-center text-white" data-aos="fade-up-left">
+                        <h3>$<span style="font-size: 35px;">99</span>/month</h3>
+                    </div>
+                    <div class="recommended">recommended</div>
+                    <div class="card-body border-0">
+
+                        <ul class="list-group list-group-flush border-0">
+                            <li class="list-group-item py-3 bg-transparent text-white" data-aos="fade-up-right">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3  bg-transparent text-white" data-aos="fade-up-right">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3  bg-transparent text-white" data-aos="fade-up-right">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3  bg-transparent text-white" data-aos="fade-up-right">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3  bg-transparent text-white" data-aos="fade-up-right">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3  bg-transparent text-white" data-aos="fade-up-right">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3  bg-transparent text-white3" data-aos="fade-up-right">
+                                <button class="btn btn-primary" data-bs-toggle="offcanvas"
+                                    href="#offcanvas-register">Select Plan <i class="bi bi-check"></i></button>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-2">
+                <div class="card text-center bg-dark p-0 border-warning" data-aos="fade-up-right">
+                    <div class="card-header py-3">
+                        <h3 class="main-heading" data-aos="fade-up">Premium Plan</h3>
+
+                    </div>
+                    <div class="bg-warning shadow border-0 py-1 text-center text-white" data-aos="fade-up-left">
+                        <h3>$<span style="font-size: 35px;">77</span>/day</h3>
+                    </div>
+                    <div class="card-body border-0">
+
+                        <ul class="list-group list-group-flush border-0">
+                            <li class="list-group-item py-3 bg-transparent text-white" data-aos="fade-up-left">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3 bg-transparent text-white" data-aos="fade-up-left">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3 bg-transparent text-white" data-aos="fade-up-left">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3 bg-transparent text-white" data-aos="fade-up-left">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3 bg-transparent text-white" data-aos="fade-up-left">Lorem
+                                ipsum dolor sit amet.</li>
+                            <li class="list-group-item py-3 bg-transparent text-white" data-aos="fade-up-left">Lorem
+                                ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- TESTIMONIALS  -->
+    <section id="TESTIMONIALS" class="container py-4">
+        <div class="main-heading text-uppercase" data-aos="fade-up">TESTIMONIALS</div>
+        <div class="sub-heading" data-aos="fade-up">What Our Clients Say</div>
+        <div class="line-heading" data-aos="fade-up"></div>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner mt-5">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card cumcard overflow-hidden mt-2 border-0"
+                                style="background-color: rgba(0, 0, 0, 0.5); color: white;" data-aos="fade-up-left">
+                                <div class="row align-items-center">
+                                    <div class="col-sm-7 px-5 ">
+
+                                        <h3 data-aos="fade-up-left">Mr.lime</h3>
+                                        <h4 class="text-warning text-uppercase" data-aos="fade-up-left">clients</h4>
+                                        <p data-aos="fade-up-left">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                            elit. Architecto, atque
+                                            sit?
+                                            Id et ex, velit harum voluptate, numquam mollitia magni error necessitatibus
+                                            nostrum officiis nesciunt delectus suscipit consequatur praesentium quos!
+                                        </p>
+                                        <button class="btn btn-primary">More <i class="bi bi-arrow-right"></i></button>
+
+                                    </div>
+                                    <div class="col-sm-5  " data-aos="fade-up-left">
+                                        <img src="img/side 5.jpg" class="img-fluid border border-white" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card cumcard overflow-hidden  mt-2 border-0"
+                                style="background-color: rgba(0, 0, 0, 0.5); color: white;" data-aos="fade-up-right">
+                                <div class="row align-items-center">
+                                    <div class="col-sm-7 px-5">
+
+                                        <h3 data-aos="fade-up-right">A Ping</h3>
+                                        <h4 class="text-warning text-uppercase">clients</h4>
+                                        <p data-aos="fade-up-right">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                            elit. Architecto, atque
+                                            sit?
+                                            Id et ex, velit harum voluptate, numquam mollitia magni error necessitatibus
+                                            nostrum officiis nesciunt delectus suscipit consequatur praesentium quos!
+                                        </p>
+                                        <button class="btn btn-primary">More <i class="bi bi-arrow-right"></i></button>
+
+                                    </div>
+                                    <div class="col-sm-5  " data-aos="fade-up-right">
+                                        <img src="img/cg1.jpg" class="img-fluid border border-white" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card cumcard overflow-hidden mt-2 border-0"
+                                style="background-color: rgba(0, 0, 0, 0.5); color: white;" data-aos="fade-up-left">
+                                <div class="row align-items-center">
+                                    <div class="col-sm-7 px-5">
+
+                                        <h3 data-aos="fade-up-left">Thu KoUo</h3>
+                                        <h4 class="text-warning text-uppercase">clients</h4>
+                                        <p data-aos="fade-up-left">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                            elit. Architecto, atque
+                                            sit?
+                                            Id et ex, velit harum voluptate, numquam mollitia magni error necessitatibus
+                                            nostrum officiis nesciunt delectus suscipit consequatur praesentium quos!
+                                        </p>
+                                        <button class="btn btn-primary">More <i class="bi bi-arrow-right"></i></button>
+
+                                    </div>
+                                    <div class="col-sm-5  " data-aos="fade-up-left">
+                                        <img src="img/cum (1).jpg" class="img-fluid border border-white" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card cumcard overflow-hidden mt-2 border-0"
+                                style="background-color: rgba(0, 0, 0, 0.5); color: white;" data-aos="fade-up-right">
+                                <div class="row align-items-center">
+                                    <div class="col-sm-7 px-5">
+
+                                        <h3 data-aos="fade-up-right">Lin Lin</h3>
+                                        <h4 class="text-warning text-uppercase" data-aos="fade-up-right">clients</h4>
+                                        <p data-aos="fade-up-right">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                            elit. Architecto, atque
+                                            sit?
+                                            Id et ex, velit harum voluptate, numquam mollitia magni error necessitatibus
+                                            nostrum officiis nesciunt delectus suscipit consequatur praesentium quos!
+                                        </p>
+                                        <button class="btn btn-primary">More <i class="bi bi-arrow-right"></i></button>
+
+                                    </div>
+                                    <div class="col-sm-5  " data-aos="fade-up-right">
+                                        <img src="img/cg5.jpg" class="img-fluid border border-white" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card cumcard overflow-hidden mt-2 border-0"
+                                style="background-color: rgba(0, 0, 0, 0.5); color: white;" data-aos="fade-left">
+                                <div class="row align-items-center">
+                                    <div class="col-sm-7 px-5">
+
+                                        <h3 data-aos="fade-left">Mr.Green</h3>
+                                        <h4 class="text-warning text-uppercase">clients</h4>
+                                        <p data-aos="fade-left">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                            elit. Architecto, atque
+                                            sit?
+                                            Id et ex, velit harum voluptate, numquam mollitia magni error necessitatibus
+                                            nostrum officiis nesciunt delectus suscipit consequatur praesentium quos!
+                                        </p>
+                                        <button class="btn btn-primary">More <i class="bi bi-arrow-right"></i></button>
+
+                                    </div>
+                                    <div class="col-sm-5  " data-aos="fade-left">
+                                        <img src="img/cum (2).jpg" class="img-fluid border border-white" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card cumcard overflow-hidden mt-2 border-0"
+                                style="background-color: rgba(0, 0, 0, 0.5); color: white;" data-aos="fade-right">
+                                <div class="row align-items-center">
+                                    <div class="col-sm-7 px-5">
+
+                                        <h3 data-aos="fade-right">LiLi</h3>
+                                        <h4 class="text-warning text-uppercase">clients</h4>
+                                        <p data-aos="fade-right">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                            elit. Architecto, atque
+                                            sit?
+                                            Id et ex, velit harum voluptate, numquam mollitia magni error necessitatibus
+                                            nostrum officiis nesciunt delectus suscipit consequatur praesentium quos!
+                                        </p>
+                                        <button class="btn btn-primary">More <i class="bi bi-arrow-right"></i></button>
+
+                                    </div>
+                                    <div class="col-sm-5  " data-aos="fade-right">
+                                        <img src="img/cg4.jpg" class="img-fluid border border-white" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- Recent News  -->
+    <section id="Rnews" class="container py-4">
+        <div class="main-heading text-uppercase" data-aos="fade-right"> Recent News </div>
+        <div class="sub-heading" data-aos="fade-right"> Our latest news and offers </div>
+        <div class="line-heading" data-aos="fade-right"></div>
+        <div class="row mt-5">
+            <div class="col-12 col-md-6 mb-3">
+                <div class="card newcard1 h-100" data-aos="fade-right">
+                    <img src="img/cum (7).jpg" class="img-fluid w-100" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card newcard mt-2 rounded" data-aos="fade-right">
+                    <div class="row justify-content-sm-between align-items-center">
+                        <div class="col-12 col-sm-7 p-2">
+                            <div class="card-body">
+                                <h5 class="card-title text-warning" data-aos="fade-right">Grand Opening: New Fitness
+                                    Classes Available!</h5>
+                                <p class="card-text" data-aos="fade-right">Some quick example text to build on the card
+                                    title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 mx-0" data-aos="fade-right">
+                            <img src="img/new1 (1).jpg" class="img-fluid rounded-end w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card newcard mt-2 rounded" data-aos="fade-right">
+                    <div class="row justify-content-sm-between align-items-center">
+                        <div class="col-12 col-sm-7 p-2">
+                            <div class="card-body" data-aos="fade-right">
+                                <h5 class="card-title text-warning" data-aos="fade-right">Special Offer: 50% Off
+                                    Membership This Month!</h5>
+                                <p class="card-text" data-aos="fade-right">Sign up now and enjoy half-price membership
+                                    for your first month.
+                                    Limited time only!</p>
+                                <a href="#" class="btn btn-primary">More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 mx-0" data-aos="fade-right">
+                            <img src="img/new1 (2).jpg" class="img-fluid rounded-end w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card newcard mt-2 rounded" data-aos="fade-right">
+                    <div class="row justify-content-sm-between align-items-center">
+                        <div class="col-12 col-sm-7 p-2">
+                            <div class="card-body">
+                                <h5 class="card-title text-warning" data-aos="fade-right">Join Our Summer Bootcamp:
+                                    Registration Open!</h5>
+                                <p class="card-text" data-aos="fade-right">Some quick example text to build on the card
+                                    title and make up
+                                    the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 mx-0" data-aos="fade-right">
+                            <img src="img/new1(3).jpg" class="img-fluid rounded-end w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Our Trainers  -->
+    <section id="trainers" class="container py-4">
+        <div class="main-heading text-uppercase" data-aos="fade-left"> Our Trainers </div>
+        <div class="sub-heading" data-aos="fade-left"> Meet our professional trainers </div>
+        <div class="line-heading" data-aos="fade-left"></div>
+        <div class="row mt-5">
+            <div class="col-lg-4 mt-2">
+                <div class="card tcard" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-5" data-aos="fade-right">
+                            <img src="img/tra (1).jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-7">
+                            <div class="card-body">
+                                <h4 class="card-title" data-aos="fade-right"> Mi Chary </h4>
+                                <h5 class="card-subtitle mb-2 text-warning">Head Trainer</h5>
+                                <p class="card-text" data-aos="fade-right">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Dolor
+                                    sit amet consectetur adipisicing elit. Dolor
+                                </p>
+                                <a href="#" class="btn btn-primary" data-aos="fade-right">View Profile <i
+                                        class="bi bi-person"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 mt-2">
+                <div class="card tcard" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-5" data-aos="fade-right">
+                            <img src="img/tra (3).jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-7">
+                            <div class="card-body">
+                                <h4 class="card-title" data-aos="fade-right"> John Smith </h4>
+                                <h5 class="card-subtitle mb-2 text-warning" data-aos="fade-right">Head Trainer</h5>
+                                <p class="card-text" data-aos="fade-right">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Dolor
+                                    sit amet consectetur adipisicing elit. Dolor
+                                </p>
+                                <a href="#" class="btn btn-primary" data-aos="fade-right">View Profile <i
+                                        class="bi bi-person"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 mt-2">
+                <div class="card tcard" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-5" data-aos="fade-right">
+                            <img src="img/tra (2).jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-7">
+                            <div class="card-body">
+                                <h4 class="card-title" data-aos="fade-right"> K-That That Win </h4>
+                                <h5 class="card-subtitle mb-2 text-warning" data-aos="fade-right">Head Trainer</h5>
+                                <p class="card-text" data-aos="fade-right">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Dolor
+                                    sit amet consectetur adipisicing elit. Dolor
+                                </p>
+                                <a href="#" class="btn btn-primary" data-aos="fade-right">View Profile <i
+                                        class="bi bi-person"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- FAQ  -->
+    <section id="faq" class="container py-4">
+        <div class="main-heading text-uppercase" data-aos="fade-up"> Frequently Asked Questions </div>
+        <div class="sub-heading" data-aos="fade-up"> FAQ </div>
+        <div class="line-heading" data-aos="fade-up"></div>
+        <div class="accordion accordion-flush " id="accordionFlushExample">
+            <div class="accordion-item  mt-2 bg-secondary text-light">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
+                        data-aos="fade-left">
+                        What are your gym's opening hours?
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" data-aos="fade-left"> Our gym is open from <strong>6:00 AM to 10:00
+                            PM</strong> from Monday
+                        to Saturday, and <strong>8:00 AM to 8:00 PM</strong> on Sundays and public holidays.</div>
+                </div>
+            </div>
+            <div class="accordion-item mt-2 bg-secondary text-light">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"
+                        data-aos="fade-left">
+                        Do you offer personal training sessions?
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" data-aos="fade-left">
+                        Yes, we offer personal training sessions with certified trainers. You can book individual or
+                        package sessions tailored to your fitness goals. Please contact our front desk or visit the
+                        "Services" section for more details.
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="accordion-item mt-2 bg-secondary text-light">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"
+                        data-aos="fade-u-lfade-left">
+                        What payment methods do you accept?
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" data-aos="fade-left">
+                        We accept a variety of payment methods including <strong>cash, credit/debit cards (Visa,
+                            MasterCard, etc.), mobile payments, and bank transfers</strong>. For more information or
+                        assistance with payments, please contact our front desk.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact us  -->
+    <section id="contacted" class=" pt-4">
+        <div class="main-heading text-uppercase" data-aos="fade-right">Contact Us</div>
+        <div class="sub-heading" data-aos="fade-right">Get in touch with us for any questions or feedback</div>
+        <div class="line-heading" data-aos="fade-right"></div>
+
+        <div id="contact" class="contact">
+            <div class="overlay1"></div>
+            <div class="container pb-4 inzo">
+                <div class="row mt-5  justify-content-center align-items-center">
+
+                    <div class="col-md-6 p-5 ">
+                        <form data-aos="fade-left">
+                            <div class="mb-3" data-aos="fade-left">
+                                <label for="name" class="form-label text-white">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3" data-aos="fade-left">
+                                <label for="email" class="form-label text-white">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3" data-aos="fade-left">
+                                <label for="message" class="form-label text-white">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary text-uppercase" data-aos="fade-left">Send <i
+                                    class="bi bi-send "></i></button>
+                        </form>
+                    </div>
+                    <div class="col-md-6 p-5 ">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-sm-4 ">
+                                <div class="contact-info text-white">
+                                    <h5 class="mb-3" data-aos="fade-right"><i class="bi bi-facebook text-primary"></i>
+                                        Facebook</h5>
+                                    <p data-aos="fade-right"><a href="https://facebook.com/pinggym"
+                                            class="text-white text-decoration-none"
+                                            target="_blank">facebook.com/pinggym</a></p>
+                                    <h5 class="mb-3" data-aos="fade-right"><i class="bi bi-telegram text-info"></i>
+                                        Telegram</h5>
+                                    <p data-aos="fade-right"><a href="https://t.me/pinggym"
+                                            class="text-white text-decoration-none" target="_blank">@pinggym</a></p>
+                                    <h5 class="mb-3" data-aos="fade-right"><i class="bi bi-instagram text-danger"></i>
+                                        Instagram</h5>
+                                    <p data-aos="fade-right"><a href="https://instagram.com/pinggym"
+                                            class="text-white text-decoration-none" target="_blank">@pinggym</a></p>
+                                    <h5 class="mb-3" data-aos="fade-right"><i class="bi bi-messenger text-primary"></i>
+                                        Messenger</h5>
+                                    <p data-aos="fade-right"><a href="https://m.me/pinggym"
+                                            class="text-white text-decoration-none" target="_blank">m.me/pinggym</a></p>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-4 ">
+                                <div class="contact-info text-white">
+                                    <h5 class="mb-3" data-aos="fade-right"><i
+                                            class="bi bi-geo-alt-fill text-warning"></i> Address</h5>
+                                    <p data-aos="fade-right">123 Fitness St, Gym City, Country</p>
+                                    <h5 class="mb-3" data-aos="fade-right"><i
+                                            class="bi bi-telephone-fill text-warning"></i> Phone</h5>
+                                    <p data-aos="fade-right">+123 456 7890</p>
+                                    <h5 class="mb-3" data-aos="fade-right"><i
+                                            class="bi bi-envelope-fill text-warning"></i> Email</h5>
+                                    <p data-aos="fade-right">info@pinggym.com</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="d-block text-center m-auto">&copy; 2023 PingGym. All rights reserved. <a
+                                    href="https://yourwebsite.com" class="text-white text-decoration-none"
+                                    target="_blank">Alim</a></span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+    <!-- offcanvas  -->
+    <section>
+        <div class="offcanvas offcanvas-end sigin" id="offcanvas-login">
+            <div class="offcanvas-header">
+                <button class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="d-flex flex-column align-items-center mt-5 pt-5">
+                <div class="main-heading text-uppercase">Login Form</div>
+                <div class="line-heading"></div>
+            </div>
+            <div class="offcanvas-body">
+                <div class="card p-5">
+                    <form action="">
+                        <input type="email" class="form-control my-2" placeholder="Email" required>
+                        <input type="password" class="form-control my-2" placeholder="Password" required>
+                        <button class="btn btn-success my-2" type="submit">Login</button>
+                        <button class="btn btn-danger my-2" type="submit">REGISTER</button>
+                    </form>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="offcanvas offcanvas-end sigin" id="offcanvas-register">
+            <div class="offcanvas-header">
+                <button class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="d-flex flex-column align-items-center mt-5 pt-5">
+                <div class="main-heading text-uppercase">Register Form</div>
+                <div class="line-heading"></div>
+            </div>
+            <div class="offcanvas-body">
+                <div class="card p-5">
+                    <form action="">
+                        <input type="email" class="form-control my-2" placeholder="Email" required>
+                        <input type="password" class="form-control my-2" placeholder="Password" required>
+                        <button class="btn btn-danger my-2" type="submit">REGISTER</button>
+                        <button class="btn btn-success my-2" type="submit">Login</button>
+                    </form>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <a href="#top" class="btn btn-info float-end text-white fw-bold up" style="font-size: 20px;"><i
+            class="bi bi-rocket"></i></a>
+</body>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
